@@ -1,10 +1,13 @@
 <?php
-$host = getenv('https://phpstack-1515092-5822114.cloudwaysapps.com/');
+/*$host = getenv('https://phpstack-1515092-5822114.cloudwaysapps.com/');
 $db = getenv('knqdjvhhkw');
 $user = getenv('knqdjvhhkw');
 $pass = getenv('QJC5ag9sWS');
-$port = getenv('MYSQL_PORT') ?: '3306';
+$port = getenv('MYSQL_PORT') ?: '3306';*/
 
+require __DIR__ . '/../config/env.php';
+
+$apiBase = API_BASE;
 
 try {
 $pdo = new PDO("mysql:host=$host;port=$port;dbname=$db;charset=utf8mb4", $user, $pass, [
