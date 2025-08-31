@@ -1,8 +1,8 @@
 <?php
-$host = getenv('MYSQL_HOST');
-$db = getenv('MYSQL_DATABASE');
-$user = getenv('MYSQL_USER');
-$pass = getenv('MYSQL_PASSWORD');
+$host = getenv('https://phpstack-1515092-5822114.cloudwaysapps.com/');
+$db = getenv('knqdjvhhkw');
+$user = getenv('knqdjvhhkw');
+$pass = getenv('QJC5ag9sWS');
 $port = getenv('MYSQL_PORT') ?: '3306';
 
 
