@@ -1,6 +1,6 @@
 <?php
 // Database (from Cloudways Access Details)
-define("MYSQL_HOST", "https://phpstack-1515092-5822114.cloudwaysapps.com/");
+define("MYSQL_HOST", "104.131.86.234");
 define("MYSQL_DATABASE", "knqdjvhhkw");
 define("MYSQL_USER", "knqdjvhhkw");
 define("MYSQL_PASSWORD", "QJC5ag9sWS");
